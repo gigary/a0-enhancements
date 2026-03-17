@@ -1,0 +1,8 @@
+name: a0_enhancements
+title: A0 Enhancements
+description: Generic enhancements to Agent Zero's default behaviour. Includes extended code execution timeouts for long-running scripts and automatic scheduled task history clearing after successful runs.
+version: 2.0.0
+settings_sections: []
+per_project_config: false
+per_agent_config: false
+always_enabled: false

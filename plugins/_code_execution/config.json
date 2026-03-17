@@ -1,0 +1,15 @@
+{
+  "code_exec_first_output_timeout": 120,
+  "code_exec_between_output_timeout": 1800,
+  "code_exec_max_exec_timeout": 10800,
+  "code_exec_dialog_timeout": 5,
+
+  "output_first_output_timeout": 120,
+  "output_between_output_timeout": 1800,
+  "output_max_exec_timeout": 10800,
+  "output_dialog_timeout": 5,
+
+  "prompt_patterns": "(\\.venv|venv).+[$#] ?$\nroot@[^:]+:[^#]+# ?$\n[a-zA-Z0-9_.-]+@[^:]+:[^$#]+[$#] ?$\n\\(?.*\\)?\\s*PS\\s+[^>]+> ?$",
+
+  "dialog_patterns": "Y/N\nyes/no\n:\\s*$\n\\?\\s*$"
+}
