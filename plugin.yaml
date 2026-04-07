@@ -1,7 +1,7 @@
 name: a0_enhancements
 title: A0 Enhancements
-description: Generic enhancements to Agent Zero's default behaviour. Includes extended code execution timeouts for long-running scripts and automatic scheduled task history clearing after successful runs.
-version: 2.0.0
+description: Generic enhancements to Agent Zero's default behaviour. Includes extended code execution timeouts for long-running scripts, automatic scheduled task history clearing after successful runs, and a fix for the overly strict tool_args validation that causes errors with Qwen3.5 models.
+version: 2.1.0
 settings_sections: []
 per_project_config: false
 per_agent_config: false
